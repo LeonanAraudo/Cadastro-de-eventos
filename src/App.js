@@ -17,10 +17,7 @@ function App() {
          <input type="text" placeholder="Digite o título do evento" required></input>
       </div>
 
-      <div className=" data">
-        <label>Data do evento</label>
-        <input type="text" placeholder="Digite a data do evento" required></input>
-      </div>
+      
 
       <div className="descricao">
         <label>Descrição do evento</label>
@@ -28,19 +25,25 @@ function App() {
       </div>
 
       <div className="categorias">
-      <select name="" id="Categoria" required>
-                <optgroup>
-                <option id="lace" disabled selcteed hidden>Categoria do evento</option>
-                </optgroup>
-                <option className="option" value="cater ">carter </option>
-                <option className="option" value="cater">carter</option>
-                <option className="option" value="cater">carter</option>
-              </select>
-      </div>
+          <select name="" required>
+      <option value="" disabled selected>Categoria do evento</option>
+      <optgroup label="">
+           <option className="option" value="cater">carter1</option>
+         <option className="option" value="cater">carter2</option>
+        <option className="option" value="cater">carter3</option>
+          </optgroup>
+          </select>
+          </div>
+
 
       <div className=" Local">
        <label>Localização do evento</label>
-       <input type="text" placeholder="Digite a localização do evento"></input>
+       <input type="text" placeholder="Digite a localização do evento" required></input>
+      </div>
+
+      <div className=" data">
+        <label>Data do evento</label>
+        <input type="date" placeholder="Digite a data do evento" required></input>
       </div>
 
       <div className="bot">

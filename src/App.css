@@ -39,11 +39,13 @@ body{
 }
 
 .App input{
-  padding-left:100px ;
   display: flex;
   width: 400px;
   height: 30px;
   margin-bottom: 30px;
+}
+.data input{
+  width: 100%;;
 }
 .App label{
 font-weight: bolder;
