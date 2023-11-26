@@ -47,6 +47,18 @@ body{
 .data input{
   width: 100%;;
 }
+.data2 input{
+  width: 100%;
+}
+.data2{
+  margin-left: 100px;
+}
+.dates p{
+  font-weight: bold;
+   position: relative;
+   top: 25px;
+   left: 40px;
+}
 .App label{
 font-weight: bolder;
 }
@@ -61,6 +73,9 @@ font-weight: bolder;
 select {
   height: 30px;
   width: 400px;
+}
+.dates{
+  display: flex;
 }
 .botao{
   width: 300px;

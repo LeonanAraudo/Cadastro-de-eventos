@@ -40,12 +40,20 @@ function App() {
        <label>Localização do evento</label>
        <input type="text" placeholder="Digite a localização do evento" required></input>
       </div>
-
+      
+      <div className="dates">
       <div className=" data">
         <label>Data do evento</label>
         <input type="date" placeholder="Digite a data do evento" required></input>
       </div>
 
+      <p>Até</p>
+
+      <div className=" data2">
+        <label>opcional</label>
+        <input type="date" placeholder="Digite a data do evento" required></input>
+      </div>
+   </div>
       <div className="bot">
       <button className="botao">Publicar</button>
       </div>
