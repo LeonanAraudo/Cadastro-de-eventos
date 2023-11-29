@@ -8,7 +8,7 @@ function App() {
       <p className="com">Compartilhe seu evento</p>
 
       <div className="area">
-       <p><i class="fa-regular fa-image"></i>Escolher Imagem</p>
+        <input type="file"></input>
       </div>
        <div className="form">
 
