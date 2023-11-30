@@ -60,6 +60,7 @@ function App() {
             <label>Data do evento</label>
             <input type="date" name='data' placeholder="Digite a data do evento" required></input>
           </div>
+
           <p>Até</p>
 
 
@@ -68,6 +69,7 @@ function App() {
             <input type="date" name='data2' placeholder="Digite a data do evento" required></input>
           </div>
         </div>
+        
         <div className='Faixa'>
           <label>Defina a Faixa Etária</label>
           <input type='number' name='idade'></input>
